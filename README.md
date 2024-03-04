@@ -8,5 +8,9 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=maulana-99&icon=3&color=0)](https://visitcount.itsvg.in)
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+### ✍️ Random Dev Quote
+<blockquote>
+  <p>"Kembangkan seperti kehidupan tidak ada batas. Singkirkan batas-batasan mental dan rintangan akan terpecahkan." - Bruce Lee</p>
+</blockquote>
