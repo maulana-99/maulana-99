@@ -10,7 +10,26 @@
 [![](https://visitcount.itsvg.in/api?id=maulana-99&icon=3&color=0)](https://visitcount.itsvg.in)
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
-### ✍️ Random Dev Quote
-<blockquote>
+### ✍️ Quote for you
+<style>
+  .quote {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 6px solid #007bff; /* Ubah warna sesuai preferensi Anda */
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  .quote p {
+    font-size: 16px;
+    color: #333;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
+<blockquote class="quote">
   <p>"Kembangkan seperti kehidupan tidak ada batas. Singkirkan batas-batasan mental dan rintangan akan terpecahkan." - Bruce Lee</p>
 </blockquote>
+
