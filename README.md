@@ -13,7 +13,6 @@
 ### ✍️ Your life now
 ```php
 <?php
-// Contoh kode PHP
 $me = new person();
 while($me->awake())$me->code;
 ?>
