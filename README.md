@@ -10,12 +10,12 @@
 [![](https://visitcount.itsvg.in/api?id=maulana-99&icon=3&color=0)](https://visitcount.itsvg.in)
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
-### ✍️ Quote for you
+### ✍️ Your life now
 ```php
 <?php
 // Contoh kode PHP
-$nama = "John";
-echo "Halo, $nama!";
+$me = new person();
+while($me->awake())$me->code;
 ?>
 ```
 
