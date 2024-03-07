@@ -7,8 +7,7 @@
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=maulana-99&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=maulana-99&icon=3&color=0)](https://visitcount.itsvg.in)
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
 
 ### 👨‍💻 My life now
 ```php
@@ -18,3 +17,5 @@ while($me->awake())$me->code;
 ?>
 ```
 
+[![](https://visitcount.itsvg.in/api?id=maulana-99&icon=3&color=0)](https://visitcount.itsvg.in)
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
