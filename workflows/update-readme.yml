@@ -1,0 +1,41 @@
+name: ✨ Update Intro in README
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 6 * * *"  # Optional: update setiap hari jam 6 pagi
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js (if needed)
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Generate intro section
+        run: |
+          echo "<!--START_SECTION:intro-->" > intro.md
+          echo "Hi, I'm Muhamad Ilham Maulana 👨‍💻" >> intro.md
+          echo "<!--END_SECTION:intro-->" >> intro.md
+
+      - name: Replace section in README.md
+        run: |
+          awk '/<!--START_SECTION:intro-->/ {flag=1; print; system("cat intro.md"); next}
+               /<!--END_SECTION:intro-->/ {flag=0; next}
+               !flag' README.md > temp.md && mv temp.md README.md
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🔁 Update intro section"
+          git push
