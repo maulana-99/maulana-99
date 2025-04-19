@@ -1,4 +1,9 @@
-<h1 align="center">I,m Muhamad Ilham Maulana</h1>
+<!-- <h1 align="center">I,m Muhamad Ilham Maulana</h1>
+# 👋 Hi there!  
+
+```bash
+> Hello, I'm
+> Muhamad Ilham Maulana_
 
 ###
 
@@ -70,4 +75,12 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maulana-99/maulana-99/output/pacman-contribution-graph.svg">
 </picture>
 
-###
+### -->
+
+# 👋 Hi there!
+
+<!--START_SECTION:intro-->
+Hi, I'm Muhamad Ilham Maulana 👨‍💻
+<!--END_SECTION:intro-->
+
+I'm a backend web developer passionate about building clean, scalable systems.
