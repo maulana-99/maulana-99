@@ -1,10 +1,4 @@
 <h1 align="center">I,m Muhamad Ilham Maulana</h1>
-# 👋 Hi there!  
-
-```bash
-> Hello, I'm
-> Muhamad Ilham Maulana_
-
 ###
 
 <br clear="both">
