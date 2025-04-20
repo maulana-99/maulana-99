@@ -76,11 +76,3 @@
 </picture>
 
 ### -->
-
-# 👋 Hi there!
-
-<!--START_SECTION:intro-->
-Hi, I'm Muhamad Ilham Maulana 👨‍💻
-<!--END_SECTION:intro-->
-
-I'm a backend web developer passionate about building clean, scalable systems.
