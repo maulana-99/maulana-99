@@ -1,4 +1,4 @@
-<!-- <h1 align="center">I,m Muhamad Ilham Maulana</h1>
+<h1 align="center">I,m Muhamad Ilham Maulana</h1>
 # 👋 Hi there!  
 
 ```bash
@@ -75,4 +75,4 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maulana-99/maulana-99/output/pacman-contribution-graph.svg">
 </picture>
 
-### -->
+###
