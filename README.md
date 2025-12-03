@@ -1,135 +1,122 @@
-<div align="center">
-    <pre>
-                                                   █ ▓ ▒ ░ 
-    ███████╗ ██████╗  ██████╗  █████╗  ███╗   ███╗ ███████╗ █████╗  
-    ██╔════╝ ██╔══██╗ ██╔══██╗██╔══██╗████╗ ████║ ██╔════╝██╔══██╗ 
-    █████╗   ██████╔╝ ██████╔╝███████║██╔████╔██║ █████╗  ███████║ 
-    ██╔══╝   ██╔══██╗ ██╔══██╗██╔══██║██║╚██╔╝██║ ██╔══╝  ██╔══██║ 
-    ███████╗ ██║  ██║ ██║  ██║██║  ██║██║ ╚═╝ ██║ ███████╗██║  ██║
-    ╚══════╝ ╚═╝  ╚═╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚══════╝╚═╝  ╚═╝
-                                                   ░ ▒ ▓ █
-    </pre>
-</div>
+<svg width="1000" height="700" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg" style="background-color:black; font-family: 'OCR A Extended', monospace;">
+    <defs>
+        <style>
+            .title { font-size: 24px; fill: white; font-weight: bold; text-anchor: middle; }
+            .heading { font-size: 16px; fill: white; font-weight: bold; }
+            .status-text { font-size: 18px; fill: white; font-weight: bold; }
+            .status-red { fill: #FF0000; font-weight: bold; }
+            .status-green { fill: #00FF00; font-weight: bold; }
+            .label { font-size: 12px; fill: white; }
+            .data { font-size: 12px; fill: white; }
+            .table-header { font-size: 14px; fill: white; font-weight: bold; }
+            .table-data { font-size: 12px; fill: white; }
+            .box { stroke: white; stroke-width: 3; fill: none; }
+            .thin-box { stroke: white; stroke-width: 1; fill: none; }
+        </style>
+    </defs>
 
-<div align="center">
-<pre>
-+-----------------------------------------------------------+
-|  <span style="font-family: 'OCR A Extended', monospace; font-weight: bold; font-size: 1.2em;">EMERGENCY RESCUE MANIFEST / DEVLPR PORTFOLIO ACCESS</span>    |
-+-----------------------------------------------------------+
-</pre>
-</div>
+    <rect x="0" y="0" width="1000" height="40" style="fill:none; stroke:white; stroke-width:3;"/>
+    <text x="500" y="27" class="title">EMERGENCY RESCUE MANIFEST</text>
 
-<pre>
-+------------------------------------------------------------------------------------------------+
-|  <span style="font-family: 'Eurostile', sans-serif; font-weight: bold;">SYSTEM UPLINK STATUS [DIAGNOSTIC PANEL #1]</span>                                                |
-+------------------------------------------------------------------------------------------------+
-|  <span style="font-family: 'OCR A Extended', monospace;">
-|  > INITIATING CONNECTIVITY SEQUENCE... [ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ]
-|  > CONNECTION TYPE    : SECURE HASH-256 / GITHUB API
-|  > LOCATION DATAPOINT : WST-JAVA / JAKARTA / EARTH GRID-01
-|  > UPLINK LATENCY     : █■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ 
-|  > CURRENT STATUS     : <span style="color: #00FF00;">███ <span style="font-weight: bold;">STANDBY / AWAITING INQUIRY</span> ███</span>
-|  > LAST ACTIVITY      : [ <img src="https://img.shields.io/badge/ACTIVE-OK_77.42%25-000000.svg?style=flat&labelColor=FFFFFF&logoColor=000000&color=000000&label=ACTIVITY" alt="Activity Status" height="15"/> ]
-|  </span>                                                                                             |
-+------------------------------------------------------------------------------------------------+
-</pre>
+    <rect x="20" y="60" width="300" height="150" class="box"/>
+    <rect x="25" y="65" width="120" height="25" class="thin-box"/>
+    <text x="35" y="83" class="heading">STATUS PANEL</text>
+    <rect x="30" y="100" width="280" height="35" class="thin-box"/>
+    <text x="40" y="125" class="status-text status-red">SATELLITE UPLINK LOST</text>
+    
+    <rect x="340" y="60" width="640" height="150" class="box"/>
+    <rect x="345" y="65" width="200" height="25" class="thin-box"/>
+    <text x="355" y="83" class="heading">DIAGNOSTIC ROUTINE</text>
+    <rect x="350" y="100" width="300" height="35" class="thin-box"/>
+    <text x="360" y="125" class="status-text status-green">SYSTEM CHECK: [OK]</text>
+    <rect x="610" y="105" width="20" height="20" class="thin-box"/>
+    <polyline points="613,115 618,125 627,105" style="fill:none; stroke:#00FF00; stroke-width:2;"/>
 
-<pre>
-+-----------------------------+ +----------------------------------------------------------------+
-|  <span style="font-family: 'Eurostile', sans-serif; font-weight: bold;">CREW / AUTHOR MANIFEST</span>    | |  <span style="font-family: 'Eurostile', sans-serif; font-weight: bold;">SYSTEM OPERATIONS [TECH STACK]</span>                                        |
-+-----------------------------+ +----------------------------------------------------------------+
-|  <span style="font-family: 'OCR A Extended', monospace;">
-|  <span style="font-weight: bold;">IDENTIFIER</span> : MAULANA-99      
-|  <span style="font-weight: bold;">NAME</span>       : MUHAMA ILHAM MAULANA
-|  <span style="font-weight: bold;">ROLE</span>       : BACKEND ENGINEER
-|  <span style="font-weight: bold;">ASSIGNMENT</span> : GITHUB PROFILE READOUT
-|
-|  <span style="font-weight: bold;">PORTRAIT</span>:
-|  <img src="https://github.com/maulana-99.png" width="90" height="90" alt="maulana-99 profile picture" style="border: 2px solid black;">
-|  <span style="font-weight: bold;">ACCESS LEVEL</span>: █ █ █ █ █ █ (FULL)
-|  </span>
-+-----------------------------+ +----------------------------------------------------------------+
-</pre>
+    <rect x="20" y="230" width="300" height="210" class="box"/>
+    <text x="35" y="248" class="heading">CREW MANIFEST</text>
+    
+    <rect x="30" y="270" width="80" height="80" class="box"/>
+    <text x="50" y="315" class="status-text">PHOTO</text>
+    <text x="30" y="370" class="label">IDENT: J.DOE/7834</text>
+    
+    <rect x="120" y="270" width="80" height="80" class="box"/>
+    <text x="140" y="315" class="status-text">PHOTO</text>
+    <text x="120" y="370" class="label">IDENT: A.LEE/6198</text>
+    
+    <rect x="210" y="270" width="80" height="80" class="box"/>
+    <text x="230" y="315" class="status-text">PHOTO</text>
+    <text x="210" y="370" class="label">IDENT: R.KIM/2901</text>
+    
+    <rect x="20" y="460" width="300" height="150" class="box"/>
+    <text x="35" y="478" class="heading">MESSAGE PICKUP</text>
+    <rect x="30" y="495" width="280" height="20" class="thin-box"/>
+    <text x="40" y="510" class="label">MESSAGE PICKUP</text>
+    <text x="40" y="535" class="data">> LOG START: 2024.10.27-14:35Z</text>
+    <text x="40" y="555" class="data">> ENCRYPTED MESSAGE INCOMING...</text>
+    <text x="40" y="575" class="data">  AWAITING DECRYPTION KEY...</text>
+    <text x="40" y="595" class="data">> STATUS: QUEUED</text>
 
-<pre>
-|  <span style="font-family: 'Eurostile', sans-serif; font-weight: bold;">SYSTEM OPERATIONS [CONTINUED]</span>                                                                  |
-+------------------------------------------------------------------------------------------------+
-|  <span style="font-family: 'OCR A Extended', monospace;">
-|  <span style="font-weight: bold;">LANGUAGE CORE</span>: GO (PRIMARY) / PHP (LEGACY) / NODE.JS (UTILITY)
-|  <span style="font-weight: bold;">DATA PERSISTENCE</span>: POSTGRESQL / MYSQL / REDIS
-|  <span style="font-weight: bold;">INFRASTRUCTURE</span>: DOCKER / KUBERNETES / AWS
-|  <span style="font-weight: bold;">PROTOCOL / METHODS</span>: REST / GRPC / MESSAGE QUEUING (KAFKA/RABBITMQ)
 
-|  <span style="font-weight: bold;">ACTIVE BADGES</span>:
-|  <img src="https://img.shields.io/badge/GO-000000.svg?style=flat&logo=go&labelColor=FFFFFF&logoColor=000000&color=FFFFFF" alt="Go" height="15"/> 
-|  <img src="https://img.shields.io/badge/PHP-000000.svg?style=flat&logo=php&labelColor=FFFFFF&logoColor=000000&color=FFFFFF" alt="PHP" height="15"/> 
-|  <img src="https://img.shields.io/badge/NODE.JS-000000.svg?style=flat&logo=node.js&labelColor=FFFFFF&logoColor=000000&color=FFFFFF" alt="Node.js" height="15"/>
-|  <img src="https://img.shields.io/badge/POSTGRESQL-000000.svg?style=flat&logo=postgresql&labelColor=FFFFFF&logoColor=000000&color=FFFFFF" alt="PostgreSQL" height="15"/>
-|  <img src="https://img.shields.io/badge/DOCKER-000000.svg?style=flat&logo=docker&labelColor=FFFFFF&logoColor=000000&color=FFFFFF" alt="Docker" height="15"/>
+    <rect x="340" y="230" width="640" height="130" class="box"/>
+    <text x="355" y="248" class="heading">DATA PURGE METER</text>
+    <text x="355" y="270" class="label">DATA PURGERS</text>
+    <rect x="350" y="290" width="620" height="30" class="thin-box"/>
+    <rect x="350" y="290" width="434" height="30" style="fill:#00FF00;"/> 
+    <text x="790" y="310" class="status-text" style="font-size:14px; fill:black;">PURGE 70.00%</text>
 
-|  <span style="font-weight: bold;">ENVIRONMENT UPTIME</span>: <img src="https://repobeats.axiom.co/api/embed/e136b6938992b8d0353c896913e6d8a34b2234f9.svg" alt="RepoBeats badge" height="15" style="filter: grayscale(100%);"/>
-|  </span>
-+------------------------------------------------------------------------------------------------+
-</pre>
+    <rect x="340" y="380" width="640" height="230" class="box"/>
+    <text x="355" y="398" class="heading">SYSTEM OPERATIONS</text>
+    
+    <line x1="350" y1="420" x2="970" y2="420" style="stroke:white; stroke-width:1;"/>
+    <line x1="700" y1="400" x2="700" y2="600" style="stroke:white; stroke-width:1;"/>
 
-<pre>
-+------------------------------------------------------------------------------------------------+
-|  <span style="font-family: 'Eurostile', sans-serif; font-weight: bold;">MESSAGE PICKUP / DEVELOPER MANIFEST LOG</span>                                                       |
-+------------------------------------------------------------------------------------------------+
-|  <span style="font-family: 'OCR A Extended', monospace;">
-|  > LOG START: 2025/12/04 04:52:00 ZULU
-|  > MESSAGE CONTENT: 
-|  <span style="font-weight: bold; color: #FF0000;">[ WARNING: INITIATE PURGE SEQUENCE IF CORE INTEGRITY FALLS BELOW 85.00% ]</span>
-|
-|  THIS IS MUHAMA ILHAM MAULANA, BACKEND ENGINEER, SPECIALIZING IN BUILDING 
-|  ROBUST, HIGH-PERFORMANCE, AND SCALABLE SYSTEMS. PRIMARY FOCUS ON SERVICE 
-|  ARCHITECTURE, OPTIMIZATION, AND DATA INTEGRITY. MY WORK LOGS ARE AVAILABLE 
-|  IN THE REPOSITORIES LISTED BELOW. INQUIRIES REGARDING SYSTEM DESIGN OR 
-|  COLLABORATION ARE WELCOME.
-|
-|  > LOG END: 2025/12/04 04:52:30 ZULU
-|  </span>
-+------------------------------------------------------------------------------------------------+
-</pre>
+    <text x="360" y="415" class="table-header">CORE FUNCTIONS</text>
+    <text x="750" y="415" class="table-header">STATUS</text>
 
-<pre>
-+------------------------------------------------------------------------------------------------+
-|  <span style="font-family: 'Eurostile', sans-serif; font-weight: bold;">DATA TRANSFER PURGE / PROGRESS BAR</span>                                                            |
-+------------------------------------------------------------------------------------------------+
-|  <span style="font-family: 'OCR A Extended', monospace;">
-|  > PURGE STATUS: <span style="font-weight: bold;">88.74% COMPLETE</span>  (CORE INTEGRITY OPTIMAL)
-|  > DATASTREAM:                                                                                  
-|  </span>                                                                                             
-<svg width="100%" height="20" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="18" fill="white" stroke="black" stroke-width="1"/>
-  <rect width="88.74%" height="18" fill="black"/>
-  <text x="50%" y="12" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="monospace" font-size="10" font-weight="bold">█ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █</text>
+    <text x="360" y="440" class="table-data">CORE FUNCTIONS</text>
+    <text x="750" y="440" class="table-data" style="fill:#00FF00;">ONLINE</text>
+    <text x="360" y="465" class="table-data">PRIMARY PROCESSOR</text>
+    <text x="750" y="465" class="table-data" style="fill:#00FF00;">ONLINE</text>
+    <text x="360" y="490" class="table-data">LIFE SUPPORT</text>
+    <text x="750" y="490" class="table-data" style="fill:#00FF00;">NOMINAL</text>
+    <text x="360" y="515" class="table-data">FUEL INTEGRITY</text>
+    <text x="750" y="515" class="table-data" style="fill:#00FF00;">NOMINAL</text>
+    <text x="360" y="540" class="table-data">COMM ARRAY</text>
+    <text x="750" y="540" class="table-data status-red">OFFLINE</text>
+    <text x="360" y="565" class="table-data">BACKUP POWER</text>
+    <text x="750" y="565" class="table-data status-red">OFFLINE</text>
+
+    <rect x="20" y="630" width="960" height="50" class="box"/>
+    <text x="30" y="655" class="data">DATA BLOCK: [7000]</text>
+    
+    <g transform="translate(500, 650)">
+        <rect x="-150" y="-10" width="300" height="30" fill="white"/>
+        <rect x="-140" y="-8" width="5" height="26" fill="black"/>
+        <rect x="-130" y="-8" width="2" height="26" fill="black"/>
+        <rect x="-125" y="-8" width="8" height="26" fill="black"/>
+        <rect x="-110" y="-8" width="1" height="26" fill="black"/>
+        <rect x="-105" y="-8" width="5" height="26" fill="black"/>
+        <rect x="-95" y="-8" width="10" height="26" fill="black"/>
+        <rect x="-80" y="-8" width="4" height="26" fill="black"/>
+        <rect x="-70" y="-8" width="6" height="26" fill="black"/>
+        <rect x="-60" y="-8" width="1" height="26" fill="black"/>
+        <rect x="-50" y="-8" width="8" height="26" fill="black"/>
+        <rect x="-35" y="-8" width="2" height="26" fill="black"/>
+        <rect x="-25" y="-8" width="5" height="26" fill="black"/>
+        <rect x="-10" y="-8" width="10" height="26" fill="black"/>
+        <rect x="5" y="-8" width="1" height="26" fill="black"/>
+        <rect x="15" y="-8" width="6" height="26" fill="black"/>
+        <rect x="30" y="-8" width="3" height="26" fill="black"/>
+        <rect x="40" y="-8" width="5" height="26" fill="black"/>
+        <rect x="55" y="-8" width="8" height="26" fill="black"/>
+        <rect x="70" y="-8" width="2" height="26" fill="black"/>
+        <rect x="80" y="-8" width="7" height="26" fill="black"/>
+        <rect x="95" y="-8" width="10" height="26" fill="black"/>
+        <rect x="110" y="-8" width="5" height="26" fill="black"/>
+        <rect x="125" y="-8" width="2" height="26" fill="black"/>
+        <rect x="135" y="-8" width="8" height="26" fill="black"/>
+        <text x="-120" y="45" class="label" style="font-size:14px; fill:white; text-anchor: middle;">03838</text>
+        <text x="110" y="45" class="label" style="font-size:14px; fill:white; text-anchor: middle;">9919</text>
+    </g>
+
 </svg>
-|  <span style="font-family: 'OCR A Extended', monospace;">
-|  <span style="font-weight: bold;">[ NOTE: DATA STREAM STABLE. NO FURTHER ACTION REQUIRED. ]</span>
-|  </span>
-+------------------------------------------------------------------------------------------------+
-</pre>
-
-<pre>
-+------------------------------------------------------------------------------------------------+
-|  <span style="font-family: 'Eurostile', sans-serif; font-weight: bold;">CONTACT CHANNELS / SECURE ACCESS ROUTES</span>                                                       |
-+------------------------------------------------------------------------------------------------+
-|  <span style="font-family: 'OCR A Extended', monospace;">
-|  <span style="font-weight: bold;">GITHUB INTERFACE</span> : <a href="https://github.com/maulana-99"><img src="https://img.shields.io/badge/GITHUB-000000.svg?style=flat&logo=github&labelColor=FFFFFF&logoColor=000000&color=FFFFFF" alt="GitHub" height="15"/> maulana-99</a>
-|  <span style="font-weight: bold;">LINKEDIN MANIFEST</span> : <a href="[MASUKKAN LINKEDIN ANDA]"><img src="https://img.shields.io/badge/LINKEDIN-000000.svg?style=flat&logo=linkedin&labelColor=FFFFFF&logoColor=000000&color=FFFFFF" alt="LinkedIn" height="15"/> CONNECT</a>
-|  <span style="font-weight: bold;">EMAIL DIRECT LINK</span> : <a href="mailto:[MASUKKAN EMAIL ANDA]"><img src="https://img.shields.io/badge/EMAIL-000000.svg?style=flat&logo=mail.ru&labelColor=FFFFFF&logoColor=000000&color=FFFFFF" alt="Email" height="15"/> SEND_COMM</a>
-|  <span style="font-weight: bold;">PUBLIC KEY FINGERPRINT</span> : █▓▒░E489-77D2-A1C8-9B50░▒▓█
-|
-|  > END OF TRANSMISSION.
-|  > SYSTEM SHUTDOWN INITIATED.
-|  </span>
-+------------------------------------------------------------------------------------------------+
-
-<div align="center">
-<pre>
-<span style="font-family: 'OCR A Extended', monospace; font-size: 0.8em;">
-<span style="font-weight: bold;">01001101 01000001 01010101 01001100 01000001 01001110 01000001 00101101 00111001 00111001</span>
-  █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █
-</pre>
-</div>
