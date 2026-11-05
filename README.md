@@ -1,49 +1,32 @@
-<div align="center">
-
-<pre>
-┌────────────────────────────────────────────────────────────────────┐
-│  I L H A M  /  MAULANA-99                   SOFTWARE DEVELOPER      │
-│  BUILD  /  BREAK  /  LEARN  /  REPEAT          INDONESIA · ID       │
-└────────────────────────────────────────────────────────────────────┘
-</pre>
-
-<h1>Curiosity into working software.</h1>
-
-<p>I build systems, apps, and tools—and stick with the hard parts until they work.</p>
-
-<a href="https://github.com/maulana-99"><img src="https://img.shields.io/badge/CONNECT-@maulana--99-E50914?style=for-the-badge&labelColor=111111" alt="Connect on GitHub" /></a>
-
-<br /><br />
-
-<img src="assets/splinter-ascii-motion.gif" width="420" alt="A red and white ASCII splinter sculpture rotating through a full turn" />
-
-<br />
-<sub>ASCII MOTION STUDY&nbsp; / &nbsp;CYBERSIGIL&nbsp; / &nbsp;FULL-TURN LOOP</sub>
-
-</div>
-
-<hr />
+<p><sub><code>MAULANA-99 / README.MD</code> &nbsp;·&nbsp; SOFTWARE DEVELOPER / INDONESIA</sub></p>
 
 <table>
   <tr>
-    <td width="34%" valign="top">
-      <strong><code>01 / BUILDING</code></strong><br /><br />
-      A self-hosted code forge with private repositories and its own version-control engine.
+    <td width="55%" valign="middle">
+      <h1>Hey, I'm Ilham.</h1>
+      <p>I turn curiosity into working software—systems, apps, and tools built to solve real problems.</p>
+      <p><code>BUILD / BREAK / LEARN / REPEAT</code></p>
+      <p><a href="https://github.com/maulana-99"><img src="https://img.shields.io/badge/CONNECT-@maulana--99-E50914?style=for-the-badge&labelColor=111111" alt="Connect on GitHub" /></a></p>
     </td>
-    <td width="33%" valign="top">
-      <strong><code>02 / TOOLKIT</code></strong><br /><br />
-      <code>GO</code> · <code>NODE.JS</code> · <code>FLUTTER</code><br />
-      <code>POSTGRESQL</code> · <code>DOCKER</code>
-    </td>
-    <td width="33%" valign="top">
-      <strong><code>03 / LEARNING</code></strong><br /><br />
-      Backend architecture<br />Application security<br />Building useful tools
+    <td width="45%" align="center" valign="middle">
+      <img src="assets/splinter-ascii-motion.gif" width="360" alt="A red and white ASCII splinter sculpture rotating in place" /><br />
+      <sub><code>ASCII MOTION / STUDY 001</code></sub>
     </td>
   </tr>
 </table>
 
-<div align="center">
-<pre>
-[ curiosity ] ───► [ experiments ] ───► [ working software ]
-</pre>
-</div>
+### `01 / CURRENT WORK`
+
+A self-hosted code forge with private repositories and its own version-control engine.
+
+### `02 / SELECTED WORK`
+
+[AnimeZone](https://github.com/maulana-99/AnimeZone) `VUE` &nbsp;·&nbsp; [FormBuilder](https://github.com/maulana-99/FormBuilder) `VUE` &nbsp;·&nbsp; [VizTools](https://github.com/maulana-99/VizTools) `HTML`
+
+### `03 / TOOLKIT`
+
+`GO` · `NODE.JS` · `FLUTTER` · `POSTGRESQL` · `DOCKER`
+
+<sub>Currently learning: backend architecture · application security</sub>
+
+<p align="right"><sub><code>END OF FILE / MAULANA-99</code></sub></p>
